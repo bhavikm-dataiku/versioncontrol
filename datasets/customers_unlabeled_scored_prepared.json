@@ -94,7 +94,14 @@
       {"name":"proba_False","type":"double"},
       {"name":"proba_True","type":"double"},
       {"name":"prediction","type":"string"},
-      {"name":"explanations","type":"string"}
+      {"name":"explanations","type":"string"},
+      {"name":"explanations_ip_address_country","type":"double"},
+      {"name":"explanations_pages_visited_avg","type":"double"},
+      {"name":"explanations_gender","type":"double"},
+      {"name":"explanations_campaign","type":"double"},
+      {"name":"explanations_age_first_order","type":"double"},
+      {"name":"explanations_user_agent_os","type":"double"},
+      {"name":"explanations_user_agent_brand","type":"double"}
     ],
     "userModified": true
   },
