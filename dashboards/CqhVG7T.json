@@ -1,0 +1,37 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "alex"
+    },
+    "lastModifiedOn": 1492181307423,
+    "versionNumber": 0
+  },
+  "listed": true,
+  "name": "Default dashboard",
+  "owner": "alex",
+  "pages": [
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": []
+      },
+      "id": "MCurGlf",
+      "showTitle": false
+    }
+  ],
+  "showGrid": true,
+  "tags": [],
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "alex"
+    },
+    "lastModifiedOn": 1492181307423,
+    "versionNumber": 0
+  }
+}
