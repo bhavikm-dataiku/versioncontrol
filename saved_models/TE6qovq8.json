@@ -3277,8 +3277,8 @@
     "customMeasures": [],
     "labels": []
   },
-  "lastTrainIndex": 1,
-  "lastTrainJobId": "",
+  "lastTrainIndex": 2,
+  "lastTrainJobId": "Build_from_train_Random_Forest_2024-05-10T16-52-39.851",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
