@@ -29,8 +29,27 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "JSONFlattener",
+      "params": {
+        "maxDepth": 1,
+        "inCol": "explanations",
+        "nullAsEmpty": true,
+        "prefixOutputs": true,
+        "flattenArrays": false,
+        "separator": "_"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +76,28 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "age_first_order": 128,
+    "ip_address_geopoint": 183,
+    "gender": 100,
+    "user_agent_brand": 135,
+    "user_agent_os": 113,
+    "ip_address_country": 150,
+    "pages_visited_avg": 143,
+    "proba_True": 155,
+    "explanations_user_agent_os": 210,
+    "explanations_ip_address_country": 248,
+    "explanations_user_agent_brand": 233,
+    "proba_False": 148,
+    "explanations_gender": 158,
+    "explanations_age_first_order": 246,
+    "explanations_pages_visited_avg": 260,
+    "customerID": 100,
+    "prediction": 100,
+    "explanations_campaign": 197,
+    "campaign": 100,
+    "explanations": 300
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
