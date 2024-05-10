@@ -93,7 +93,8 @@
       {"name":"pages_visited_avg","type":"double"},
       {"name":"proba_False","type":"double"},
       {"name":"proba_True","type":"double"},
-      {"name":"prediction","type":"string"}
+      {"name":"prediction","type":"string"},
+      {"name":"explanations","type":"string"}
     ],
     "userModified": true
   },
