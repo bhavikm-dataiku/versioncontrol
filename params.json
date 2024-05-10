@@ -16,7 +16,7 @@
     "users": []
   },
   "tutorialProject": true,
-  "tutorialId": "DKU_TUTORIAL_MACHINE_LEARNING_BASICS",
+  "tutorialId": "DKU_TUTORIAL_SCORING_BASICS",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
@@ -138,7 +138,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Scoring Basics",
+  "name": "Scoring Basics for alfred",
+  "projectStatus": "Sandbox",
   "imgPattern": 2,
   "showInitials": false,
   "metrics": {
