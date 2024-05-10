@@ -27,7 +27,7 @@
         ],
         "limit": {
           "min": 1.0E-23,
-          "max": 1.0
+          "max": 1
         },
         "range": {
           "scaling": "LINEAR",
@@ -96,9 +96,9 @@
     "pluginAlgoCustomGridSearch": false,
     "metrics": {
       "costMatrixWeights": {
-        "fpGain": -1.0,
-        "tpGain": 5.0,
-        "fnGain": -10.0,
+        "fpGain": -1,
+        "tpGain": 5,
+        "fnGain": -10,
         "tnGain": 0.5
       },
       "liftPoint": 0.4,
@@ -109,7 +109,7 @@
       "customMetrics": []
     },
     "autoOptimizeThreshold": true,
-    "forcedClassifierThreshold": 0.0,
+    "forcedClassifierThreshold": 0,
     "grid_search_params": {
       "grouped": false,
       "bayesianOptimizer": "SCIKIT_OPTIMIZE",
@@ -138,7 +138,7 @@
   "generatingModelId": "A-DKU_TUTORIAL_SCORING_BASICS-Ye1soqXd-Or5aPGz9-s2-pp1-m1",
   "preprocessing": {
     "reduce": {
-      "kept_variance": 0.0,
+      "kept_variance": 0,
       "enabled": false
     },
     "target_remapping": [
@@ -167,7 +167,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -195,7 +195,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -210,7 +210,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": true
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "gender": {
         "nb_bins_hashing": 1048576,
@@ -225,7 +225,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -260,7 +260,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -295,7 +295,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -330,7 +330,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -358,7 +358,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "datetime_cyclical_periods": [],
@@ -373,7 +373,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": true
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "customerID": {
         "nb_bins_hashing": 1048576,
@@ -388,7 +388,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -424,7 +424,7 @@
         "type": "CATEGORY",
         "impact_kfold": true,
         "missing_handling": "NONE",
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -457,7 +457,7 @@
         "customHandlingCode": "",
         "type": "CATEGORY",
         "impact_kfold": true,
-        "frequency_default_value": 0.0,
+        "frequency_default_value": 0,
         "impact_kfold_seed": 1337,
         "state": {
           "autoModifiedByDSS": false,
@@ -502,7 +502,7 @@
         "behavior": "ENABLED_MANUAL"
       }
     },
-    "preprocessingFitSampleRatio": 1.0,
+    "preprocessingFitSampleRatio": 1,
     "preprocessingFitSampleSeed": 1337,
     "feature_selection_params": {
       "pca_params": {
@@ -514,17 +514,17 @@
       },
       "method": "NONE",
       "correlation_params": {
-        "min_abs_correlation": 0.0,
-        "max_abs_correlation": 1.0,
+        "min_abs_correlation": 0,
+        "max_abs_correlation": 1,
         "n_features": 25
       },
       "lasso_params": {
         "alpha": [
           0.01,
           0.1,
-          1.0,
-          10.0,
-          100.0
+          1,
+          10,
+          100
         ],
         "cross_validate": true
       },
@@ -775,9 +775,9 @@
               {
                 "input": "age_first_order",
                 "col": "gender",
-                "num": 40.0,
+                "num": 40,
                 "operator": "\u003e\u003d [number]",
-                "num2": 0.0
+                "num2": 0
               }
             ]
           },
@@ -798,9 +798,9 @@
               {
                 "input": "customerID",
                 "col": "gender",
-                "num": 0.0,
+                "num": 0,
                 "operator": "contains",
-                "num2": 0.0
+                "num2": 0
               }
             ]
           },
