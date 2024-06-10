@@ -38,7 +38,7 @@
       },
       "maxThreads": 8,
       "containerSelection": {
-        "containerMode": "INHERIT"
+        "containerMode": "NONE"
       }
     }
   },
