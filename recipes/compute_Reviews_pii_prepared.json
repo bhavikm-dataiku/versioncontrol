@@ -3,7 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "engineType": "SPARK",
+    "engineType": "DSS",
     "engineParams": {
       "spark": {
         "readParams": {
@@ -43,7 +43,7 @@
       },
       "maxThreads": 8,
       "containerSelection": {
-        "containerMode": "INHERIT"
+        "containerMode": "NONE"
       }
     }
   },
