@@ -35,7 +35,7 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "StringTransformer",
@@ -43,6 +43,37 @@
         "mode": "TO_UPPER",
         "columns": [
           "Food Item"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "truncate_limit": 0
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "Tokenizer",
+      "params": {
+        "inCol": "Feedback",
+        "sortAlphabetically": false,
+        "normalize": false,
+        "language": "english",
+        "operation": "TO_JSON",
+        "clearStopWords": false,
+        "stem": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "StringTransformer",
+      "params": {
+        "mode": "TO_UPPER",
+        "columns": [
+          "Gender"
         ],
         "appliesTo": "SINGLE_COLUMN",
         "truncate_limit": 0
